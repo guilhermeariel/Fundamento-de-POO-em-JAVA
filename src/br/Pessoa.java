@@ -2,6 +2,7 @@ package br;
 
 // Classe abs é a base para criar outras classes
 public abstract class Pessoa {
+
   protected String nome;
   protected int idade;
   protected String sexo;
@@ -51,7 +52,7 @@ public abstract class Pessoa {
   }
 
   //Metodos publicos
-  public void ganharExp(){
+  public void ganharExp() {
   }
 
   @Override
