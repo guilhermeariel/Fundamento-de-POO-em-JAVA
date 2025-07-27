@@ -16,8 +16,17 @@ public class Main {
     u[0] = new Usuario("Ariel", 20, "M", "WW");
     u[1] = new Usuario("Maria", 25, "F", "maria");
     u[2] = new Usuario("Joao", 30, "M", "joao");
-    //Precisou do to STRING
-    System.out.println(u[0].toString());
+
+    Visualizacao v = new Visualizacao();
+
+//    System.out.println("Videos\n--------------------------");
+//    System.out.println(v[0].toString());
+//    System.out.println(v[1].toString());
+//    System.out.println(v[2].toString());
+//    System.out.println(">\nUsuarios\n--------------------------");
+//    //Precisou do to STRING
+//    System.out.println(u[0].toString());
+//    System.out.println(u[1].toString());
 
 
 
