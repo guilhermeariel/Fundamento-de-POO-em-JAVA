@@ -17,7 +17,11 @@ public class Main {
     u[1] = new Usuario("Maria", 25, "F", "maria");
     u[2] = new Usuario("Joao", 30, "M", "joao");
 
-    Visualizacao v = new Visualizacao();
+    Visualizacao[] vi = new Visualizacao[5];
+    vi[0] = new Visualizacao(u[0], v[0]);
+    System.out.println(vi[0].toString());
+    vi[1] = new Visualizacao(u[0], v[1]);
+    System.out.println(vi[1].toString());
 
 //    System.out.println("Videos\n--------------------------");
 //    System.out.println(v[0].toString());
