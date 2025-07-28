@@ -8,19 +8,18 @@ public class Main {
     v[0] = new Video("Aula 1 de POO");
     v[1] = new Video("Aula 2 de HTML 5");
     v[2] = new Video("Aula 3 de PHP");
-    v[3] = new Video("Aula 4 de JS");
-    v[4] = new Video("Aula 5 de CSS");
-    System.out.println(v[0].toString());
 
-    Usuario[] u = new Usuario[3];
+    Usuario[] u = new Usuario[2];
     u[0] = new Usuario("Ariel", 20, "M", "WW");
     u[1] = new Usuario("Maria", 25, "F", "maria");
-    u[2] = new Usuario("Joao", 30, "M", "joao");
 
     Visualizacao[] vi = new Visualizacao[5];
-    vi[0] = new Visualizacao(u[0], v[0]);
+    vi[0] = new Visualizacao(u[0], v[2]);
+    vi[0].avaliar();
     System.out.println(vi[0].toString());
+
     vi[1] = new Visualizacao(u[0], v[1]);
+    vi[0].avaliar(93.0f);
     System.out.println(vi[1].toString());
 
 //    System.out.println("Videos\n--------------------------");
